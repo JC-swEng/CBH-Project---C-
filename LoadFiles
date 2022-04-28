@@ -1,0 +1,15 @@
+rm *.db
+echo CreateState
+./CreateState
+echo CreateCounty
+./CreateCounty
+echo CreateColor
+./CreateColor
+echo CreateVmake
+./CreateVmake
+echo CreateVtype
+./CreateVtype
+echo CreateVehicle
+./CreateVehicle
+echo CreatePerson
+./CreatePerson

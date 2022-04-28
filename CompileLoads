@@ -1,0 +1,20 @@
+echo compiling CreateState
+g++ CreateState.cpp -o CreateState
+
+echo compiling CreateCounty
+g++ CreateCounty.cpp -o CreateCounty
+
+echo compiling CreateColor
+g++ CreateColor.cpp -o CreateColor
+
+echo compiling CreateVmake
+g++ CreateVmake.cpp -o CreateVmake
+
+echo compiling CreateVtype
+g++ CreateVtype.cpp -o CreateVtype
+
+echo compiling CreateVehicle
+g++ CreateVehicle.cpp VehicleFile.cpp Vehicle.cpp Upper.cpp SSNHyphens.cpp SSNNoHyphens.cpp Trim.cpp Vmake.cpp Vtype.cpp Color.cpp -o CreateVehicle
+
+echo compiling CreatePerson
+g++ CreatePerson.cpp PersonFile.cpp Person.cpp Upper.cpp SSNHyphens.cpp SSNNoHyphens.cpp ZipHyphens.cpp ZipNoHyphens.cpp Trim.cpp State.cpp County.cpp -o CreatePerson
